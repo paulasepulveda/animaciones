@@ -1,6 +1,22 @@
 body {
-	background-color: #E2F4F7;
+	background-image: url(../img/lago.jpg);
+	background-repeat: no-repeat;
+	background-size: 1370px 1000px;
+	margin:0;
 }
-img {
-	background-position: 100% 50%;
+
+#correr{
+	background-image: url(../img/correr.jpg);
+	margin-left: 800px;
+	margin-top: 200px;
+	width: 200px;
+	height: 300px;
+	animation: efecto infinite 700ms steps(1);
+}
+
+@keyframes efecto{
+	1%{background-position: -120px 0}
+	16%{background-position: -240px 0px}
+	33%{background-position: -360px 0}
+	50%{background-position: -480px 0}
 }
